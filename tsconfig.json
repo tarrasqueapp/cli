@@ -1,0 +1,5 @@
+{
+  "extends": "@tarrasque/tsconfig/esm",
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
