@@ -166,9 +166,9 @@
   integrity sha512-9uJveS9eY9DJ0t64YbIBZICtJy8a5QrDEVdiLCG97fVLpDTpGX7t8mMSb6OWw6Lrnjqj4O8zwjELX3dhoMgiBg==
 
 "@babel/parser@^7.17.3", "@babel/parser@^7.17.8", "@babel/parser@^7.20.13", "@babel/parser@^7.20.7":
-  version "7.20.13"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.20.13.tgz#ddf1eb5a813588d2fb1692b70c6fce75b945c088"
-  integrity sha512-gFDLKMfpiXCsjt4za2JA9oTMn70CeseCehb11kRZgvd7+F67Hih3OHOK24cRrWECJ/ljfPGac6ygXAs/C8kIvw==
+  version "7.20.15"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.20.15.tgz#eec9f36d8eaf0948bb88c87a46784b5ee9fd0c89"
+  integrity sha512-DI4a1oZuf8wC+oAJA9RW6ga3Zbe8RZFt7kD9i4qAspz3I/yHet1VvC3DiSy/fsUvv5pvJuNPh0LPOdCcqinDPg==
 
 "@babel/template@^7.16.7", "@babel/template@^7.18.10", "@babel/template@^7.20.7":
   version "7.20.7"
@@ -438,28 +438,28 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tarrasque/eslint-config@latest":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tarrasque/eslint-config/-/eslint-config-1.0.1.tgz#731b011b018a8eacde58add00cd2b5ecbdd28b3e"
-  integrity sha512-dbAMvvzosdFpeitVnFWGzcgLt5FjyFUwIKXoPBxmiNsXX1CHnPXezyf5ws1Bg54HJy9zbrXZQltjrtbFMdcTyA==
+"@tarrasque/eslint-config@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tarrasque/eslint-config/-/eslint-config-1.0.2.tgz#48e9bc6220021196e8b9095937ca68537a8b7ea3"
+  integrity sha512-nTWrYjdrbNB0n4HNn2g8QPgwnoh9VJYibZFr2RNNfFRhd/nS6cswMzXBmkWI3AF/Q4AgWNYGO2VAHORMQYrxgg==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.49.0"
-    "@typescript-eslint/parser" "^5.49.0"
+    "@typescript-eslint/eslint-plugin" "^5.50.0"
+    "@typescript-eslint/parser" "^5.50.0"
     eslint-config-prettier "^8.6.0"
     eslint-plugin-prettier "^4.2.1"
-    eslint-plugin-react "^7.32.1"
+    eslint-plugin-react "^7.32.2"
 
-"@tarrasque/prettier-config@latest":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@tarrasque/prettier-config/-/prettier-config-1.0.2.tgz#7d0315de9c3cb56518a4e7256f511e374b3e3faf"
-  integrity sha512-7zNOxTryq+3Hcg2Pc7Qdy5AytanSTdSvhd0z1Q1NFNn0cCXB2fGTS1BMsZ4PVMcTMSFFN1fpxeiOdZfKtop+fw==
+"@tarrasque/prettier-config@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tarrasque/prettier-config/-/prettier-config-1.0.3.tgz#1a192101fb92b383c5e279737f1fd0c1c8e23351"
+  integrity sha512-L7RNB76Lt3U94Imy3TQKt9UaLq4nIuczdec9sbr2EsYJlSJLclixfArFpFU0ibBoVjBU/AaoEmWHlX0781A37A==
   dependencies:
     "@trivago/prettier-plugin-sort-imports" "^4.0.0"
 
-"@tarrasque/tsconfig@latest":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@tarrasque/tsconfig/-/tsconfig-1.0.2.tgz#2301a50046e9e82ab91bb9c08e7354629b35a6f2"
-  integrity sha512-m5RuuvIunTGepeKrqI1ajSigve4rSfzrPe20UvZC6ZpIZCo1mdoDa6xbcKx50Z+1e5m9ueTkNR3f2OrSF+Pm2g==
+"@tarrasque/tsconfig@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tarrasque/tsconfig/-/tsconfig-1.0.3.tgz#614833679243c754374967a212e667777c9b50e9"
+  integrity sha512-rklCywdkjdRteNj65jV5AJp2498HdCCzNmluQXToCUKCtC78YJhwdVe/STkiSFP6ukJWrYK37xcBwSh8Ey2GhA==
 
 "@trivago/prettier-plugin-sort-imports@^4.0.0":
   version "4.0.0"
@@ -523,7 +523,7 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
   integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
 
-"@typescript-eslint/eslint-plugin@^5.49.0":
+"@typescript-eslint/eslint-plugin@^5.50.0":
   version "5.50.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.50.0.tgz#fb48c31cadc853ffc1dc35373f56b5e2a8908fe9"
   integrity sha512-vwksQWSFZiUhgq3Kv7o1Jcj0DUNylwnIlGvKvLLYsq8pAWha6/WCnXUeaSoNNha/K7QSf2+jvmkxggC1u3pIwQ==
@@ -539,7 +539,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.49.0":
+"@typescript-eslint/parser@^5.50.0":
   version "5.50.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.50.0.tgz#a33f44b2cc83d1b7176ec854fbecd55605b0b032"
   integrity sha512-KCcSyNaogUDftK2G9RXfQyOCt51uB5yqC6pkUYqhYh8Kgt+DwR5M0EwEAxGPy/+DH6hnmKeGsNhiZRQxjH71uQ==
@@ -1032,7 +1032,7 @@ eslint-plugin-prettier@^4.2.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react@^7.32.1:
+eslint-plugin-react@^7.32.2:
   version "7.32.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.32.2.tgz#e71f21c7c265ebce01bcbc9d0955170c55571f10"
   integrity sha512-t2fBMa+XzonrrNkyVirzKlvn5RXzzPwRHtMvLAtVZrt8oxgnTQaYbU6SXTOO1mwQgp1y5+toMSKInnzGr0Knqg==
