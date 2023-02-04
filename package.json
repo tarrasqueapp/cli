@@ -38,9 +38,9 @@
     "yaml": "^2.2.1"
   },
   "devDependencies": {
-    "@tarrasque/eslint-config": "latest",
-    "@tarrasque/prettier-config": "latest",
-    "@tarrasque/tsconfig": "latest",
+    "@tarrasque/eslint-config": "^1.0.2",
+    "@tarrasque/prettier-config": "^1.0.3",
+    "@tarrasque/tsconfig": "^1.0.3",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.27",
